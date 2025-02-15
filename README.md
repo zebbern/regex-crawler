@@ -1,7 +1,7 @@
 # p-search
 
 > [!Warning]
-> Program is still in realse phase and will be updated in `1` days.
+> Program is still in realse phase and will be updated today
 
 > [!Note]
 > You can try running this yourself just do
