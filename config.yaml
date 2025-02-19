@@ -1,6 +1,9 @@
 # config.yaml
 base_url: "https://example.com"      # Starting URL for crawling
-crawl_depth: 1                       # Depth of crawling (0 means only the base page)
-advanced: true                       # Enable advanced analysis (e.g. header and comment scanning)
-regex_file: "regex_patterns.txt"     # File containing regex patterns (one per line)
-output_file: "results.yaml"          # Output file for saving results
+crawl_depth: 1                            # Depth of crawling
+advanced: true                            # Enable advanced analysis
+regex_file: "regex_patterns.txt"          # File containing regex patterns
+output_file: "results.yaml"               # Main detailed output file
+sorted_output_file: "results-sorted.yaml" # Aggregated results by pattern & URLs
+nourl_output_file: "resultsnourl.yaml"    # Aggregated results by pattern only, no URLs
+
