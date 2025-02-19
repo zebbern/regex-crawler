@@ -10,27 +10,36 @@
 ![Status](https://img.shields.io/badge/Status-Active-green)
 ![License](https://img.shields.io/badge/License-MIT-brightgreen)
 
-**An advanced web crawler built for bug bounty hunters! This Python-based tool recursively crawls a target website, performs regex-based content searches, and saves results in structured YAML files. Includes optional advanced security analysis for reconnaissance.**
+ **An advanced web crawler built for bug bounty hunters!**
+ 
+ **Tool recursively crawls a target website, performs regex-based content searches, and saves results in structured YAML files.**
+ 
+ **Includes optional security analysis for reconnaissance.**
 
 ---
 
-## Features:
-**`Validate URLs before crawling to prevent errors.`**
+### `Features:`
+<h6>
+   
+Validate URLs before crawling to prevent errors.
 
-**`Extract all internal links recursively up to a specified depth.`**
+Extract all internal links recursively up to a specified depth.
 
-**`Perform regex-based searches on each page's content using a user-defined regex list.`**
+Perform regex-based searches on each page's content using a user-defined regex list.
 
-**`Optionally enable advanced security checks such as scanning HTTP headers and HTML comments for potential leaks.`**
+Optionally enable advanced security checks such as scanning HTTP headers and HTML comments for potential leaks.
 
-**`Store all crawled URLs and results in structured YAML format for easy analysis.`**
+Store all crawled URLs and results in structured YAML format for easy analysis.</h6>
 
 </div>
 
-> [!Note]
-> **Step 1: Configure the `config.yaml` file to set up the target URL and crawling options.**  
-> **Step 2: Run the Python script and let it crawl the target website while extracting valuable information.**  
-> **Step 3: Review the structured results saved in `results.yaml`.**
+---
+
+<kbd>How To Run</kbd>
+
+**Step 1: Configure the `config.yaml` file to set up the target URL and crawling options.**  
+**Step 2: Run the Python script and let it crawl the target website while extracting valuable information.**  
+**Step 3: Review the structured results saved in `results.yaml`.**
 
 ## Requirements:
 ```
