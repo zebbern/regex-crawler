@@ -1,6 +1,0 @@
-# config.yaml
-base_url: "https://monolittenil.no"      # Starting URL for crawling
-crawl_depth: 1                       # Depth of crawling (0 means only the base page)
-advanced: true                       # Enable advanced analysis (e.g. header and comment scanning)
-regex_file: "regex_patterns.txt"     # File containing regex patterns (one per line)
-output_file: "results.yaml"          # Output file for saving results
