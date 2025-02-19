@@ -1,10 +1,10 @@
 <div align="center">
 
-## Regex Web Crawler
-
 <a href="https://github.com/your-repo/BugBountyCrawler">
-   <img src="https://upload.wikimedia.org/wikipedia/commons/8/8a/Web_scraping_logo.png" width="13%">
+   <img src="https://github.com/user-attachments/assets/99f1a4d0-ac60-415c-a61b-4015da390a80" width="30%">
 </a>
+
+<kbd>Regex Web Crawler</kbd>
 
 ![Python](https://img.shields.io/badge/Python-3.x-blue)
 ![Status](https://img.shields.io/badge/Status-Active-green)
