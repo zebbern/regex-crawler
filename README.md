@@ -1,1 +1,73 @@
-# Regex Website Crawler
+<div align="center">
+
+## Regex Web Crawler
+
+<a href="https://github.com/your-repo/BugBountyCrawler">
+   <img src="https://upload.wikimedia.org/wikipedia/commons/8/8a/Web_scraping_logo.png" width="13%">
+</a>
+
+![Python](https://img.shields.io/badge/Python-3.x-blue)
+![Status](https://img.shields.io/badge/Status-Active-green)
+![License](https://img.shields.io/badge/License-MIT-brightgreen)
+
+**An advanced web crawler built for bug bounty hunters! This Python-based tool recursively crawls a target website, performs regex-based content searches, and saves results in structured YAML files. Includes optional advanced security analysis for reconnaissance.**
+
+---
+
+## Features:
+**`Validate URLs before crawling to prevent errors.`**
+
+**`Extract all internal links recursively up to a specified depth.`**
+
+**`Perform regex-based searches on each page's content using a user-defined regex list.`**
+
+**`Optionally enable advanced security checks such as scanning HTTP headers and HTML comments for potential leaks.`**
+
+**`Store all crawled URLs and results in structured YAML format for easy analysis.`**
+
+</div>
+
+> [!Note]
+> **Step 1: Configure the `config.yaml` file to set up the target URL and crawling options.**  
+> **Step 2: Run the Python script and let it crawl the target website while extracting valuable information.**  
+> **Step 3: Review the structured results saved in `results.yaml`.**
+
+## Requirements:
+```
+Python 3.x
+requests
+beautifulsoup4
+pyyaml
+```
+Install the required dependencies with:
+```
+pip install -r requirements.txt
+```
+
+## Usage:
+1. Set up your configuration in `config.yaml`:
+   ```yaml
+   base_url: "https://example.com"
+   crawl_depth: 1
+   advanced: true
+   regex_file: "regex_patterns.txt"
+   output_file: "results.yaml"
+   ```
+2. Create or edit your regex patterns in `regex_patterns.txt` (one per line):
+   ```txt
+   (?i)password\s*[:=]\s*['"][^'"]+['"]
+   (?i)secret\s*[:=]\s*['"][^'"]+['"]
+   ```
+3. Run the script:
+   ```bash
+   python crawler.py
+   ```
+
+## Contribute:
+Feel free to suggest improvements or contribute by visiting [https://github.com/your-repo](https://github.com/your-repo).
+
+<hr>
+
+> [!WARNING]  
+> This tool is intended for ethical hacking and bug bounty purposes only. Unauthorized scanning of third-party websites is illegal and unethical. Always obtain explicit permission before testing any target.
+
