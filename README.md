@@ -69,7 +69,7 @@ pip install -r requirements.txt
    ```
 3. Run the script:
    ```bash
-   python crawler.py
+   python para.py
    ```
 
 ## Contribute:
