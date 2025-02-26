@@ -43,7 +43,6 @@ Store all crawled URLs and results in structured YAML format for easy analysis.<
 
 ## Requirements:
 ```
-Python 3.x
 requests
 beautifulsoup4
 pyyaml
